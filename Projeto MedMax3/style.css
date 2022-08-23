@@ -61,23 +61,16 @@ body {
 
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 645px) {
+    main .section2 {
+        height: 100vw;
+    }
     main .section2 h2 {
-        font-size: 1.5rem;
+        font-size: 4vw;
+        margin-top: 5rem;
     }
 }
 
-@media (max-width: 915px) {
-
-}
-
-@media (max-width: 550px) {
-    /* mexer no section h2 */
-}
-
-@media (max-width: 315px) {
-    /* mexer no tamanho da fonte do footer */
-}
 
 .section2 .marcas { /* deixar as marcas em um tamanho bom para o celular e pc */
     background-color: #101010e5;
@@ -93,8 +86,8 @@ body {
     text-align: center;
     color: white;
     font-weight: 700;
-    margin: 12rem;
-    font-size: 2.8rem;
+    margin-top: 12rem;
+    font-size: 2.8rem; /* 2.5vw */
 }
 
 .section2 strong {
