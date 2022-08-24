@@ -122,7 +122,6 @@ footer p {
     .section1 a {
         padding: 15px 15px;
         left: 31vw;
-
     }
 
     .section2 h2 {
@@ -133,3 +132,5 @@ footer p {
         height: 75vh;
     }
 }
+
+/* Arrumar botao do whatsapp, arrumar detalhes (footer, aumentar o .marcas, deixar o botao de cima um pouquinho maior e esticado para ser melhor para clicar no celular) */
