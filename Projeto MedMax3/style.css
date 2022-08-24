@@ -24,10 +24,10 @@ body {
 }
 
 .section1 a {
-    background-image: linear-gradient(to right, #727272, #474747); /* #858585 */
+    background-image: linear-gradient(to right, #727272, #474747);
     border-radius: 50px;
     width: 30%;
-    padding: 15px 0px;
+    padding: 15px 20px;
     font-size: 2.5vw;
     text-align: center;
     text-decoration: none;
@@ -35,7 +35,15 @@ body {
     font-weight: 600;
     position: absolute;
     top: 60vw;
-    left: 34vw;
+    left: 33vw;
+    transition: all 0.3s; /* animação leve ao tirar o mouse */
+}
+
+.section1 a:hover { /* animação leve ao passar o mouse */
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    transform: scale(1.1);
+    transition: transform 0.3s;
 }
 
 .section2 {
@@ -111,6 +119,12 @@ footer p {
 }
 
 @media (max-width: 535px) {
+    .section1 a {
+        padding: 15px 15px;
+        left: 31vw;
+
+    }
+
     .section2 h2 {
         font-size: 1.3rem;
     }
