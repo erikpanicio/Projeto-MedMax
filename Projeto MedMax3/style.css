@@ -11,63 +11,11 @@
     color: inherit;
     font-style: inherit;
     font-family: inherit;
-    scrollbar-width: thin;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    vertical-align: baseline;
-    scrollbar-color: #888 #f1f1f1;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -webkit-tap-highlight-color: transparent;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5em;
-    width: auto;
-}
-
-@media (max-width: 1720px) {
-    main .section1 a {
-        
-    }
-}
-
-@media (max-width: 1250px) {
-    main .section2 h2 {
-        
-    }
-}
-
-@media (max-width: 995px) {
-    main .section2 h2 {
-        font-size: 1.5rem;
-        margin-top: 8rem;
-    }
-
-    .section2 {
-        height: 90vh;
-    }
-
-    .section2 .marcas {
-        background-size: 90%;   
-    }
-}
-
-@media (max-width: 595px) {
-    html footer p {
-        font-size: 1.2rem;
-    }
-}
-
-@media (max-width: 535px) {
-    main .section2 h2 {
-        font-size: 1.3rem;
-    }
-    
-    .section2 {
-        height: 80vh;
-    }
 }
 
 .section1 img {
@@ -86,7 +34,7 @@ body {
     color: white;
     font-weight: 600;
     position: absolute;
-    top: 62vw;
+    top: 60vw;
     left: 34vw;
 }
 
@@ -98,7 +46,7 @@ body {
     height: 100vh;
 }
 
-.section2 .marcas { /* deixar as marcas em um tamanho bom para o celular e pc */
+.section2 .marcas {
     background-color: #101010e5;
     background-image: url('image/image1.png');
     background-repeat: no-repeat;
@@ -108,12 +56,12 @@ body {
     padding: 8%;
 }
 
-.section2 h2 { /* diminuir o tamanho da fonte pelo media querie */
+.section2 h2 {
     text-align: center;
     color: white;
     font-weight: 700;
     margin-top: 12rem;
-    font-size: 2.8rem; /* 2.5vw */
+    font-size: 2.8rem;
 }
 
 .section2 strong {
@@ -128,11 +76,46 @@ footer {
     padding: 20px;
 }
 
-footer p { /* footer está crescendo quando a tela diminui */
+footer p {
     text-align: center;
     font-weight: 300;
     font-size: 1.45rem;
     padding: 18px;
 }
 
-/* fazer media query para celular deitado    */
+@media (max-width: 1720px) {
+
+}
+
+@media (max-width: 1250px) {}
+
+@media (max-width: 995px) {
+    .section2 h2 {
+        font-size: 1.8rem;
+        margin-top: 8rem;
+    }
+
+    .section2 {
+        height: 80vh;
+    }
+
+    .section2 .marcas {
+        background-size: 90%;   
+    }
+}
+
+@media (max-width: 595px) {
+    footer p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 535px) {
+    .section2 h2 {
+        font-size: 1.3rem;
+    }
+    
+    .section2 {
+        height: 75vh;
+    }
+}
