@@ -36,22 +36,59 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-    height: 105vh;
+    height: 100vh;
 }
 
+@media (max-width: 1250px) {
+    main .section2 h2 {
+        
+    }
+}
+
+@media (max-width: 995px) {
+    main .section2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .section2 {
+        height: 90vh;
+    }
+
+    .section2 .marcas {
+        background-size: 90%;   
+    }
+}
+
+@media (max-width: 595px) {
+    html footer p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 535px) {
+    main .section2 h2 {
+        font-size: 1.3rem;
+    }
+    
+    .section2 {
+        height: 80vh;
+    }
+}
+
+/* 
 @media (max-width: 1375px) {
     main .section2 h2 {
         font-size: 2rem;
     }
 }
 
-@media (max-width: 1090px) {/* 1055 */
+@media (max-width: 1090px) {
     .section2 .marcas {
         background-size: 90%;   
     }
 
     .section2 {
-        height: 90vh;        
+        height: 90vh;
         font-size: 0.50em;
     }
 
@@ -69,13 +106,13 @@ body {
         font-size: 4vw;
         margin-top: 5rem;
     }
-}
+} */
 
-@media (orientation: landscape) {
+/* @media (orientation: landscape) {
     main .section2 {
         height: 100vw;
     }
-}
+} */
 
 .section2 .marcas { /* deixar as marcas em um tamanho bom para o celular e pc */
     background-color: #101010e5;
