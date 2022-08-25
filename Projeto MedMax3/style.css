@@ -36,10 +36,13 @@ body {
     position: absolute;
     top: 60vw;
     left: 33vw;
-    transition: all 0.3s; /* animação leve ao tirar o mouse */
 }
 
-.section1 a:hover { /* animação leve ao passar o mouse */
+.section1 a, .section2 a { /* animação leve ao tirar o mouse */
+    transition: transform 0.3s;
+}
+
+.section1 a:hover, .section2 a:hover { /* animação leve ao passar o mouse */
     opacity: 0.8;
     transition: opacity 0.3s;
     transform: scale(1.1);
@@ -51,7 +54,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-    height: 100vh;
+    height: 120vh;
 }
 
 .section2 .marcas {
@@ -74,6 +77,26 @@ body {
 
 .section2 strong {
     color: #37DE23;
+}
+
+.section2 .botao2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.section2 a {
+    background-color: rgb(44, 163, 30, 0.35);/* #33ad1d */
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 15px 100px 15px 30px;
+    font-size: 2.5vw;
+    text-align: center;
+    font-weight: 700;
+    backdrop-filter: blur(15px);
+    margin-top: 3.5%;
+    margin-bottom: 20%;
 }
 
 footer {
