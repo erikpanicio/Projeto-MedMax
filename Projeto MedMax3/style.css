@@ -54,7 +54,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-    height: 120vh;
+    
 }
 
 .section2 .marcas {
@@ -71,7 +71,7 @@ body {
     text-align: center;
     color: white;
     font-weight: 700;
-    margin-top: 12rem;
+    margin-top: 10%;
     font-size: 2.8rem;
 }
 
@@ -91,11 +91,12 @@ body {
     text-decoration: none;
     border-radius: 50px;
     padding: 15px 6vw 15px 30px;
-    font-size: 2.5vw;
+    font-size: 2.8rem;
     text-align: center;
     font-weight: 700;
     backdrop-filter: blur(15px);
     margin-top: 3.5%;
+    margin-bottom: 10%;
     box-shadow:  0px 0px 30px 5px black;
 }
 
@@ -113,6 +114,7 @@ footer {
     border-top: 2px solid #F3B640;
     height: 100%;
     padding: 20px;
+    /* display: flex; */
 }
 
 footer p {
@@ -124,22 +126,28 @@ footer p {
 
 @media (max-width: 1400px) {
     .section2 h2 {
-        margin-top: 14rem;
+        margin-top: 15%;
     }
+
     .section2 a {
-        font-size: 3vw;
+        margin-bottom: 15%;
     }
 }
 
 @media (max-width: 995px) {
+    .section1 a {
+        width: 40%;
+        font-size: 3.5vw;
+        left: 28vw;
+    }
     .section2 h2 {
         font-size: 1.8rem;
-        margin-top: 8rem;
+        margin-top: 20%;
     }
 
-    .section2 {
+   /*  .section2 {
         height: 80vh;
-    }
+    } */
 
     .section2 .marcas {
         background-size: 90%;   
@@ -147,12 +155,17 @@ footer p {
 
     .section2 a {
         font-size: 3.5vw;
+        margin-bottom: 20%;
     }
 }
 
-@media (max-width: 595px) { /* 595px */
-    .section2 .botao2 {
-        font-size: 6vw;
+@media (max-width: 595px) {
+    .section2 h2 {
+        margin-top: 25%;
+    }
+
+    .section2 a {
+        margin-bottom: 25%;
     }
 
     footer p {
@@ -162,18 +175,18 @@ footer p {
 
 @media (max-width: 535px) {
     .section1 a {
-        padding: 15px 15px;
-        left: 31vw;
+        /* padding: 15px 15px; */
+        left: 26vw;
     }
 
     .section2 h2 {
         font-size: 1.3rem;
-        margin-top: 12rem;
+        /* margin-top: 12rem; */
     }
     
-    .section2 {
+    /* .section2 {
         height: 75vh;
-    }
+    } */
 }
 
 /* Arrumar botao do whatsapp, arrumar detalhes (diminuir um pouco a section2, footer, aumentar o .marcas, deixar o botao de cima um pouquinho maior e esticado para ser melhor para clicar no celular) */
