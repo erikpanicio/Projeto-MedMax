@@ -100,8 +100,8 @@ body {
 }
 
 .section2 a img {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     position: absolute;
     top: 10%;
     left: 77%;
@@ -136,8 +136,9 @@ footer p {
     .section1 a {
         width: 40%;
         font-size: 3.5vw;
-        left: 28vw;
+        left: 26vw;
     }
+
     .section2 h2 {
         font-size: 3.5vw;
         margin-top: 23%;
@@ -154,15 +155,15 @@ footer p {
     .section2 a {
         font-size: 3.5vw;
         margin-bottom: 23%;
+        padding-left: 3%;
+        padding-right: 8%;
     }
 
     .section2 a img {
-        /* top: 0rem;
-        left: 14.5rem; */
         width: 4rem;
         height: 4rem;
-        top: 7%;
-        left: 73.5%;
+        top: 8%;
+        left: 76%;
     }
 }
 
@@ -176,6 +177,7 @@ footer p {
         margin-bottom: 30%;
         font-size: 1.5rem;
     }
+    
 
     footer p {
         font-size: 1.2rem;
@@ -183,25 +185,38 @@ footer p {
 }
 
 @media (max-width: 535px) {
-    .section1 a {
-        /* padding: 15px 15px; */
-        left: 26vw;
-    }
-
     .section2 h2 {
         font-size: 1.3rem;
-        /* margin-top: 12rem; */
     }
-    
-    /* .section2 {
-        height: 75vh;
-    } */
 }
 
 /* Media querries para a imagem do whatsapp (teste) */
 
-@media (max-width: 955px) {
-
+@media (max-width: 800px) {
+    .section2 a img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
 }
+
+
+@media (max-width: 725px) {
+    .section2 a {
+        padding-right: 10%;
+    }
+    .section2 a img {
+        width: 3rem;
+        height: 3rem;
+        top: 13%;
+        left: 76%;
+    }
+}
+
+@media (max-width: 450px) {
+    .section2 a {
+        padding-right: 15%;
+    }
+}
+
 
 /* Arrumar botao do whatsapp, arrumar detalhes (footer, aumentar o .marcas, deixar o botao de cima um pouquinho maior e esticado para ser melhor para clicar no celular) */
