@@ -206,6 +206,11 @@ footer p {
 }
 
 @media (max-width: 450px) { /*  */
+    .section1 a {
+        top: 59vw;
+        left: 24vw;
+    }
+    
     .section2 a {
         padding-right: 15%;
     }
