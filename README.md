@@ -1,3 +1,3 @@
 # Projeto-MedMax
  
-https://erikpanicio.github.io/Projeto-MedMax/Projeto%20MedMax3/index.html
+https://erikpanicio.github.io/Projeto-MedMax/Projeto%20MedMax/index.html
